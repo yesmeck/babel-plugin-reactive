@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-reactive works 1`] = `
+"import { useState as _useState } from \\"react\\";
+import React from 'react';
+
+const App = () => {
+  const [count, setcount] = _useState(0);
+
+  return React.createElement(\\"button\\", {
+    onClick: () => setcount(_count => _count += 1)
+  }, \\"Clicked \\", count, \\" \\", count === 1 ? 'time' : 'times');
+};
+
+export default App;"
+`;
