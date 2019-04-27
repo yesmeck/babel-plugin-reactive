@@ -2,7 +2,7 @@
 
 This plugin allows you to declare a state just like declaring a normal variable, and then update the state like updating a normal variable.
 
-**This project is still an experiment, don't use it in a production.**
+**This project is still an experiment, don't use it in production.**
 
 ### In
 
