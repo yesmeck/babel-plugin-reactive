@@ -7,7 +7,7 @@
     "test": "jest",
     "prebuild": "rimraf lib",
     "build": "tsc",
-    "prepack": "npm run build"
+    "prepack": "npm run test && npm run build"
   },
   "keywords": ["react", "babel"],
   "author": "Wei Zhu <yesmeck@gmail.com>",
