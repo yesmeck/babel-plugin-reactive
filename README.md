@@ -1,6 +1,6 @@
 # babel-plugin-reactive
 
-Make React reactive again!
+This plugin allows you to declare a state just like declaring a normal variable, and then update the state like updating a normal variable.
 
 ### In
 
